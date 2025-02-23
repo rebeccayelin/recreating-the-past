@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+p {
+  font-family: 'David Libre', serif;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+a {
+  color: #666666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
