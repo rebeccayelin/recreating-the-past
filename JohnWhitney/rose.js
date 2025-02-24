@@ -16,7 +16,7 @@ const CONFIG = {
       [{ x: 0, y: 0 }],
       [{ x: 0, y: 0 }]
     ],
-    BRIGHT_POINT_PROBABILITIES: [0.2, 0.95, 0.6, 0.6, 0.95, 0.9]
+    BRIGHT_POINT_PROBABILITIES: [0.2, 0.99, 0.9, 0.6, 0.5, 0.99]
   }
 };
 
@@ -107,11 +107,11 @@ class RoseCurve {
   initializeColors() {
     return [
       color(255, 0, 0),    // red
-      color(255, 0, 255),  // magenta
-      color(0, 0, 255),    // blue
+      color(100, 0, 255),  // magenta
+      color(0, 255, 255),    // cyan
       color(0, 255, 0),    // green
-      color(0, 255, 255),  // cyan
-      color(255, 0, 255)   // yellow
+      color(0, 0, 255),  // blue
+      color(255, 0, 200)   // pink
     ];
   }
 
